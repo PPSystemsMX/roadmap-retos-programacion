@@ -5,7 +5,7 @@
 
 // Utilizar "//" para un comentario de una sola línea
 // Utilizar "/*" y "*/" para un bloque de comentarios de 2 o más líneas
-// Tambien se puede utilizar al iniciar el bloque de comentarios "/*", para cada linea "*" y para finalizar el bloque "*/"
+// Tambien se puede utilizar al iniciar el bloque de comentarios "/*", y para cada linea "*" y para finalizar el bloque "*/"
 
 /*
  * Este es un bloque 
@@ -22,7 +22,19 @@ public class PPSystemsMX {
     String miVariable = "Mi variable es de tipo String";
 
     // Declaración de una constante
-    final String miConstante = "Mi Constante es de tipo String";
+
+    /*
+     * Para espeficicar que es una constante se utiliza la palabra reservada
+     * "final" despues se especifica el tipo de valor que va a contener, seguido
+     * del nombre de la constante, para una facil identificación se recomienda 
+     * que todas las constantes su nombre sea en mayusculas y separadas por un 
+     * gion bajo "_"
+     * cuando se declara una constante siempre se tiene que asignar su valor desde 
+     * la declaracion 
+     * A continuación vemos un ejemplo
+     */
+    final String MI_CONSTANTE = "Mi Constante es de tipo String";
+
 
     //Tipo de datos primitivos
 
